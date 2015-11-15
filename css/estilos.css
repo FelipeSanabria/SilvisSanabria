@@ -1,0 +1,142 @@
+body {
+	background: #FDFDFD;
+	color: #043E38;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+
+footer {
+	background:#049487;
+	color: #FDFDFD;
+}
+
+footer p {
+	padding: 1em;
+}
+
+h2 {
+	font-size: 4em;
+	font-family: 'Pacifico', cursive;
+	padding-top: 1em;
+}
+
+h3 {
+	font-size: 3em;
+	font-family: 'Pacifico', cursive;
+	padding-top: 1em;
+}
+
+header nav {
+	background:#049487;
+	box-shadow: rgba(0,0,0,0.8) 0px 0px 10px;
+	font-size: 1.5em;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0.5em 0;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 0 3em;
+	padding: 0;
+}
+
+header nav ul li a {
+	color: #FDFDFD;
+	text-decoration: none;
+}
+
+header nav ul li ul {
+	position: absolute;
+	background: #049487;
+	padding: 0.5em 20px;
+	margin: 0 -20px;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+}
+
+header nav ul li ul li { 
+	display: block;
+	color: #FDFDFD;
+	margin: 0;
+	padding: 0 0.25em 0.25em 0;
+	text-align: left;
+}
+
+ul li ul li:hover { 
+	background: #043E38; 
+}
+
+header nav ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+p {
+	font-size: 1.5em;
+	margin: 0 8em;
+}
+
+#portada {
+	background-image: url(../img/portada.png);
+	background-size: 100%;
+	display: inline-block;
+    margin-top: 3em;
+	text-align: center;
+    width: 100%;
+}
+
+#portada img {
+	display: inline-block;
+	margin: 1em;
+}
+
+#portafolio {
+	background: #68D6D6;
+}
+
+#contacto {
+	background: #68D6D6;
+}
+
+#contacto p a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#contacto p a:visited {
+	color: #043E38;
+}
+
+#contacto ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#contacto ul li {
+	display: inline-block;
+	margin: 3em 0;
+}
+
+#contacto ul li img {
+	height: 128px;
+	width: 128px;
+	margin: 0 2em;
+}
+
+#psnl {
+	padding-right: 60px;
+}
+
+#trabajos img {
+	margin: 0 1em 2em;
+}
