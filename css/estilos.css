@@ -12,6 +12,7 @@ footer {
 
 footer p {
 	padding: 1em;
+	margin: 0;
 }
 
 h2 {
@@ -82,7 +83,7 @@ header nav ul li:hover ul {
 
 p {
 	font-size: 1.5em;
-	margin: 0 8em;
+	margin: 0 8em 1em;
 }
 
 #portada {
@@ -103,17 +104,316 @@ p {
 	background: #C1FFFF;
 }
 
+#individual #titulo {
+	display: inline-block;
+	width: 100%;
+}
+
+#individual img {
+	margin: 0;
+	padding: 0;
+	box-shadow: rgba(0,0,0,0.8) 0px 0px 10px;
+}
+
+#fanart figure {
+	margin: 0;
+	padding: 0;
+	width: 33%;
+	display: inline-block;
+}
+
+#fanart figcaption {
+	margin: 0;
+	padding: 0 0 1em 0;
+	display: inline-block;
+}
+
+#fanart img {
+	width: 75%;
+}
+
+#inktober img {
+	width: 20%;
+	margin: 1em;
+}
+
+#inktober img:nth-of-type(3) {
+	width: 23%;
+}
+
+#inktober img:nth-of-type(4) {
+	width: 17.7%;
+}
+
+#inktober img:nth-of-type(5) {
+	width: 23.8%;
+}
+
+#inktober img:nth-of-type(7) {
+	width: 23.5%;
+}
+
+#inktober img:nth-of-type(9) {
+	width: 22.5%;
+}
+
+#inktober img:nth-of-type(11) {
+	width: 18.3%;
+}
+
+#inktober img:nth-of-type(16) {
+	width: 22%;
+}
+
+#inktober img:nth-of-type(17) {
+	width: 23.2%;
+}
+
+#inktober img:nth-of-type(18) {
+	width: 18%;
+}
+
+#inktober img:nth-of-type(19) {
+	width: 20.2%;
+}
+
+#inktober img:nth-of-type(21) {
+	width: 22.5%;
+}
+
+#inktober img:nth-of-type(22) {
+	width: 17.8%;
+}
+
+#inktober img:nth-of-type(23) {
+	width: 18.5%;
+}
+
+#inktober img:nth-of-type(26) {
+	width: 25.6%;
+}
+
+#inktober img:nth-of-type(27) {
+	width: 22%;
+}
+
+#inktober img:nth-of-type(30) {
+	width: 26.8%;
+}
+
+#inktober img:nth-of-type(31) {
+	width: 25%;
+}
+
+#reto img {
+	width: 20%;
+	margin: 1em;
+}
+
+#reto img:nth-of-type(3) {
+	width: 18.5%;
+}
+
+#reto img:nth-of-type(4) {
+	width: 18.5%;
+}
+
+#reto img:nth-of-type(5) {
+	width: 18.7%;
+}
+
+#reto img:nth-of-type(8) {
+	width: 16.3%;
+}
+
+#reto img:nth-of-type(10) {
+	width: 16%;
+}
+
+#reto img:nth-of-type(12) {
+	width: 16%;
+}
+
+#reto img:nth-of-type(14) {
+	width: 19.3%;
+}
+
+#reto img:nth-of-type(16) {
+	width: 20.6%;
+}
+
+#reto img:nth-of-type(19) {
+	width: 16%;
+}
+
+#reto img:nth-of-type(20) {
+	width: 20.2%;
+}
+
+#reto img:nth-of-type(23) {
+	width: 18.2%;
+}
+
+#reto img:nth-of-type(24) {
+	width: 18.7%;
+}
+
+
+#barcos img {
+	width: 40%;
+	margin: 1em;
+}
+
+#barcos img:nth-of-type(2) {
+	width: 38%;
+}
+
+#barcos img:nth-of-type(4) {
+	width: 37%;
+}
+
+#barcos img:nth-of-type(6) {
+	width: 27%;
+}
+
+#cherry img {
+	width: 35%;
+	margin: 1em;
+}
+
+#creatividad img {
+	width: 30%;
+	margin: 1em;
+}
+
+#tiempo img {
+	width: 60%;
+	margin: 1em;
+}
+
+#japon img {
+	width: 60%;
+	margin: 1em;
+}
+
+#amar img {
+	width: 30%;
+	margin: 1em;
+}
+
+#aracnidos img {
+	width: 25%;
+	margin: 1em;
+}
+
+#aracnidos img:nth-of-type(1) {
+	width: 23.5%;
+}
+
+#aracnidos img:nth-of-type(3) {
+	width: 27%;
+}
+
+#aracnidos img:nth-of-type(4) {
+	width: 18.5%;
+}
+
+#aracnidos img:nth-of-type(6) {
+	width: 18%;
+}
+
+#cuevas img {
+	width: 28%;
+	margin: 1em;
+}
+
+#cuevas img:nth-of-type(1) {
+	width: 24.5%;
+}
+
+#cuevas img:nth-of-type(2) {
+	width: 20%;
+}
+
+#cuevas img:nth-of-type(4) {
+	width: 21%;
+}
+
+#cuevas img:nth-of-type(6) {
+	width: 25%;
+}
+
+#ojos img {
+	width: 25%;
+	margin: 1em;
+}
+
+#ojos img:nth-of-type(1) {
+	width: 22.5%;
+}
+
+#ojos img:nth-of-type(2) {
+	width: 19.5%;
+}
+
+#ojos img:nth-of-type(5) {
+	width: 20%;
+}
+
+#ojos img:nth-of-type(6) {
+	width: 22.5%;
+}
+
+#oseo img {
+	width: 25%;
+	margin: 1em;
+}
+
+#oseo img:nth-of-type(1) {
+	width: 24%;
+}
+
+#oseo img:nth-of-type(2) {
+	width: 23%;
+}
+
+#oseo img:nth-of-type(4) {
+	width: 20%;
+}
+
+#oseo img:nth-of-type(6) {
+	width: 45%;
+}
+
+#gato img {
+	width: 60%;
+}
+
+#flor img {
+	width: 60%;
+
+}
+
+#individual figcaption {
+	font-size: 1.5em;
+	margin: 1em;
+}
+
 #contacto {
 	background: #C1FFFF;
 }
 
-#contacto p a {
+#correo {
 	text-decoration: none;
 	font-weight: bold;
 }
 
-#contacto p a:visited {
+#correo:link, #correo:visited, #correo:active {
 	color: #043E38;
+}
+
+#correo:hover {
+	color: #049487;
 }
 
 #contacto ul {
@@ -133,10 +433,23 @@ p {
 	margin: 0 2em;
 }
 
+#hover {
+	margin: 0;
+	padding: 0;
+}
+
 #psnl {
 	padding-right: 60px;
 }
 
 #trabajos img {
-	margin: 0 1em 2em;
+	box-shadow: rgba(0,0,0,0.8) 0px 0px 10px;
+	margin: 0 3em 6em;
+	width: 30%;
+}
+
+#miniaturas img {
+	box-shadow: rgba(0,0,0,0.8) 0px 0px 10px;
+	margin: 0 3em 6em;
+	width: 50%;
 }
