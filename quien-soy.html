@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 	<head>
-		<title>Silvis Sanabria - Cuento: ¿Quién Soy?</title>
+		<title>Silvis Sanabria - ¿Quién Soy?</title>
 		<meta charset="utf-8" />
 		<meta name="description" content="Portafolio Digital - Silvia Sanabria">
 		<meta name="robots" content="all">
@@ -12,47 +12,101 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 
 		<link rel="shortcut icon" href="img/favicon.ico">
+
+		<meta name="viewport" content="width = 1050, user-scalable = no" />
+		<script type="text/javascript" src="js/jquery.min.1.7.js"></script>
+		<script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
 	</head>
 
 	<body>
 		<header>
 			<nav>
 				<ul>
-					<li><a href="index.html#">Inicio</a></li>
-					<li><a href="index.html#about">¿Quién soy yo?</a></li>
-					<li><a href="index.html#portafolio">Portafolio</a>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#about">¿Quién soy yo?</a></li>
+					<li><a href="#portafolio">Portafolio</a>
 						<ul id="prtf">
-							<li><a href="index.html#portafolio-1">Lápices de Colores</a></li>
-							<li><a href="index.html#portafolio-2">Tintas</a></li>
-							<li><a href="index.html#portafolio-3">Digital</a></li>
-							<li><a href="index.html#portafolio-4">¿Quién Soy?</a></li>
+							<li><a href="#portafolio-1">Lápices de Colores</a></li>
+							<li><a href="#portafolio-2">Tintas</a></li>
+							<li><a href="#portafolio-3">Digital</a></li>
+							<li><a href="#portafolio-4">¿Quién Soy?</a></li>
 						</ul>
 					</li>
-					<li><a href="index.html#personal">Algo más personal...</a>
+					<li><a href="#personal">Algo más personal...</a>
 						<ul id="psnl">
-							<li><a href="index.html#personal-1">Fanarts</a></li>
-							<li><a href="index.html#personal-2">Reto 30 dias</a></li>
-							<li><a href="index.html#personal-3">#inktober2015</a></li>
+							<li><a href="#personal-1">Fanarts</a></li>
+							<li><a href="#personal-2">Reto 30 dias</a></li>
+							<li><a href="#personal-3">#inktober2015</a></li>
 						</ul>
 					</li>
-					<li><a href="index.html#contacto">¡Contáctame!</a></li>
+					<li><a href="#contacto">¡Contáctame!</a></li>
 				</ul>
 			</nav>
 		</header>
-	
-		<section id="individual">
-			<div id="cuento">
-				<div id="titulo">
-					<h2>Cuento: ¿Quién Soy?</h2>
+
+		<div class="flipbook-viewport">
+			<div class="container">
+				<div class="flipbook">
+					<div style="background-image:url(img/portafolio/cuento/portada.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/1.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/2.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/3.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/4.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/5.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/6.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/7.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/8.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/9.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/10.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/11.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/12.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/13.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/14.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/15.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/16.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/17.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/18.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/19.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/20.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/21.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/22.jpeg)"></div>
+					<div style="background-image:url(img/portafolio/cuento/contraportada.jpeg)"></div>
 				</div>
+			</div>
+		</div>
 
+		<div id="cuentofix">
+			<p>
+				<strong>Título:</strong> ¿Quién soy? <br>
+				<strong>Tema:</strong> Cuento infantil <br>
+				<strong>Técnica:</strong> Tintas y lápices de colores <br>
+				<strong>Fecha:</strong> 13/11/2015 
+			</p>
 
-
-			</div>	
-		</section>
-
-		<footer>
+			<footer>
 			<p>© Derechos de Autor 2015 - Silvia Andrea Sanabria Patiño</p>
-		</footer>
+			</footer>
+		</div>
+
+
+		<script type="text/javascript">
+
+		function loadApp() {
+			$('.flipbook').turn({
+					width:834,
+					height:600,
+					elevation: 50,
+					autoCenter: true
+			});
+		}
+
+		yepnope({
+			test : Modernizr.csstransforms,
+			yep: ['js/turn.js'],
+			nope: ['js/turn.html4.min.js'],
+			both: ['js/basic.css'],
+			complete: loadApp
+		});
+		</script>
 	</body>
 </html>
