@@ -460,6 +460,22 @@ p {
 	width: 50%;
 }
 
+#info img {
+	width: 100%;
+}
+
+#pzs img {
+	width: 80%;
+}
+
+#pzs #pzs-pequeno {
+	width: 40%;
+}
+
+#pzs figure {
+	margin-bottom: 8em;
+}
+
 .flipbook-viewport{
 	overflow:hidden;
 	width:100%;
